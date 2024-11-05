@@ -1,0 +1,126 @@
+.head{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    border: 7px solid rgb(64 199 133)  ;
+    border-radius:4px ;
+    text-shadow: 5px 5px 5px rgb(203, 198, 198);
+    
+}
+
+.na{
+    height: 200px;
+    color:rgb(64 199 133)  ;
+    text-shadow: 5px 5px 5px rgb(52, 50, 50);
+     align-items: center;
+    justify-content: center;
+    display:flex ;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.add{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    background-color: white ;
+    /* border-top: 5px solid #c2cbd2; */
+
+}
+
+.add input{
+    border:2px solid rgb(64 199 133);
+    border-radius: 5px;
+    height: 35px;
+    width: 270px;
+    font-size: medium;
+}
+
+#bt1:hover{
+    box-shadow: 2px 2px 2px #c2cbd2 ;
+}
+
+#bt1{
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(64 199 133) ;
+    border:2px solid rgb(64 199 133) ;
+}
+
+#bt1:active{
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#bt2{
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(185, 226, 47) ;
+    border:2px solid rgb(185, 226, 47) ;
+}
+#bt2:hover{
+    box-shadow: 3px 3px #c2cbd2 ;
+}
+#bt2:active{
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#bt3{
+    border-radius:5px ;
+    background-color: white;
+    color: #c34f70 ;
+    border:2px solid #c34f70;
+}
+#bt3:hover{
+    box-shadow: 3px 3px #c2cbd2 ;
+}
+#bt3:active{
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.data{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border-top:  5px solid #c2cbd2; */
+    background-color: white;
+    color:black ;
+    
+}
+
+.data input{
+    border:2px solid rgb(64 199 133);
+    border-radius: 5px;
+}
+
+
+.value1{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+/* .value2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+} */
+.border{
+    padding-bottom: 10px;
+}
+
+
